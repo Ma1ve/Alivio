@@ -1,0 +1,347 @@
+/** font-family: 'Georgia'; **/
+/** font-family: 'Lato'; **/
+  
+
+ 
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  
+.container-wide
+  margin: 0 auto
+  width: 1650px
+  padding: 0 140px
+  
+
+.row
+  display: flex
+  
+
+.align-center
+  align-items: center
+
+/** HEADER **/
+
+.header
+  position: relative
+  padding-top: 30px
+  padding-bottom: 31px
+
+.logo
+  margin-right: 173px
+  
+
+.nav
+  
+  font-family: 'Lato'
+  font-weight: 500
+  font-size: 20px
+  margin-right: 283px
+  ul 
+    display: flex
+    margin: 0
+    padding: 0
+    list-style-type: none
+  li+li
+    margin-left: 72px
+  a
+    text-decoration: none
+    color: #292929
+    transition: color 0.2s ease-in
+    &:hover
+      color: green
+        
+  &-wrapper
+    padding: 17px 0
+
+.sign-in
+  margin-right: 35px
+  font-family: 'Lato'
+  font-weight: 400
+  font-size: 20px
+  color: #000000
+  a
+    text-decoration: none
+    color: #292929
+    transition: color 0.2s ease-in
+    &:hover
+      color: green
+
+button
+  background: #01996D
+  border: 1px solid #01996D
+  box-sizing: border-box
+  border-radius: 4px
+  width: 183px
+  height: 51px
+
+.btn-find
+  width: 227px;
+  height: 65px;
+
+.start
+  font-family: 'Lato'
+  font-weight: 400
+  font-size: 20px
+  line-height: 25px
+  text-align: center
+  color: #FFFFFF
+
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+.btn-sg
+  display: flex
+  align-items: center
+
+
+.be-aware
+  min-height: 895px
+  padding: 138px 0 336px 0
+  background: url("../img/bg/BG.jpg") center center/cover no-repeat
+  /** margin-top: 37px **/
+
+  &-text
+    font-family: 'Georgia'
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.138;
+    color: #01996D;
+    width: 440px
+    height: 148px
+    margin-top: 4px
+    transition: transform 0.4s cubic-bezier(0.180, -0.315, 0.180, 1.650)
+    &:hover
+      transform: translateY(-5%)
+
+    &-1
+      width: 420px
+      height: 88px
+      font-family: "Lato"
+      font-weight: 500
+      font-size: 20px
+      line-height: 1.40
+      color: #484848
+      margin-top: 30px
+      margin-bottom: 50px
+      
+
+  &-block
+    margin-left: 271px
+
+
+.divider
+  position: absolute
+  content: ""
+  left: 0
+  display: block
+  width: 100%
+  height: 1px
+  background-color: #D6D6D6
+
+.how-work
+  min-height: 1570px
+  padding: 132px 232px 51px 275px
+  
+  &-text
+    font-family: "Lato"
+    font-weight: 600
+    font-size: 24px
+    color: #424242
+    &-1
+      font-size: 50px;
+      width: 584px
+      height: 158px
+      line-height: 81px;
+      margin-right: 136px
+    &-2
+      width: 671px
+      height: 120px
+      line-height: 30px
+      font-weight: 500
+
+.article
+  margin-right: 95px
+  &:last-child
+    margin-right: 0
+  &:nth-child(even)
+      margin-top: 286px
+  &-num
+    position: relative
+    &::before
+      position: absolute
+      content: attr(data-number)
+      transform: translateY(-66%)
+
+      font-family: "Georgia"
+      font-weight: 400
+      font-size: 150px
+      text-align: center
+      color: rgba(1, 153, 109, 0.2)
+    
+  &-title
+    font-family: "Georgia"
+    font-weight: 700
+    font-size: 30px
+    color: #000000
+    margin-top: 195px
+    margin-left: 88px
+    
+  &-text
+    margin-top: 60px
+    margin-bottom: 60px
+    width: 382px
+    height: 150px
+    font-family: "Lato"
+    font-weight: 600
+    font-size: 20px
+    line-height: 30px
+    color: #424242
+    
+.a2
+  &-title
+    margin-left: 79px
+  &-text
+    width: 392px
+    height: 90px
+    margin-bottom: 37px
+  
+
+.a3
+  margin-top: 50px
+  &-title
+    margin-left: 125px
+  &-text
+    width: 441px
+    height: 90px
+    margin-bottom: 37px
+    margin-top: 52px
+  &-num::before
+    height: 165px
+
+
+.article-img-3
+  margin-left: 5px
+  margin-top: 15px
+
+.green
+  min-height: 922px
+  padding: 229px 207px 177px 207px
+  background-color: rgba(36, 88, 82, 1)
+  &-img-video
+    margin: 4px 0 0 31px
+
+.lets-hear
+  &-subtitle
+    width: 580px
+    height: 158px
+    font-family: "Georgia"  
+    font-weight: 700
+    font-size: 50px
+    line-height: 79px
+    color: #FFFFFF
+    margin-bottom: 37px
+    margin-top: 85px
+  &-text
+    font-family: "Lato"
+    font-weight: 600
+    font-size: 25px
+    color: #FFFFFF
+    margin-bottom: 61px
+
+.btn-getstart
+  width: 240px
+  height: 65px
+
+.our-product
+  position: relative
+  min-height: 936px
+  padding: 120px 275px 175px 188px
+  &-img
+    
+    margin-left: 148px
+    margin-right: 87px
+    &-card
+      position: absolute
+      top: 503px  
+      left: 170px
+      
+
+.you
+  width: 584px
+  height: 158px
+  font-family: "Georgia"
+  font-weight: 700;
+  font-size: 50px
+  line-height: 79px
+  margin-top: 18px
+  
+
+.everyone
+  width: 530px
+  height: 81px
+  margin-top: 21px
+  margin-bottom: 39px
+
+.our
+  font-weight: 800
+  margin-top: 4px
+
+
+.footer
+  min-height: 656px
+  padding: 105px 0 145px 275px
+  background-color: rgba(36, 88, 82, 1)
+  &-nav
+    li
+      margin-top: 60px
+      list-style-type: none
+      padding: 0
+      font-family: "Lato"
+      font-weight: 600
+      font-size: 25px
+    a
+      position: relative
+      color: #fff
+      text-decoration: none 
+          
+      &::after
+        position: absolute
+        left: 0
+        bottom: -10px
+        display: block
+        content: " "
+        width: 100%
+        height: 2px
+        background-color: #fff
+        opacity: 0
+        transition: all 0.2s ease-in
+
+      &:hover::after    
+        position: absolute
+        left: 0
+        bottom: -5px
+        display: block
+        content: " "
+        width: 100%
+        height: 2px
+        background-color: #fff
+        opacity: 1 
+        
+
+    &-logo
+      margin-bottom: 70px
+    
+.hamburger
+  display: none
+
+
+  
+
+
+
+  
+
